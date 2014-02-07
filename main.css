@@ -1,0 +1,34 @@
+﻿
+.input-group {
+    width: 300px;
+    margin-bottom: 5px;
+}
+
+h3 {
+    width: 50%;
+    margin: 0 auto;
+}
+
+#container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+}
+
+.btn-xs {
+    float: right;
+}
+
+.resize-vertical {
+    float: left;
+    vertical-align: middle;
+    margin-right: 8px;
+}
+
+.success {
+    text-decoration: line-through;
+}
+
+.hidden {
+    display: none;
+}

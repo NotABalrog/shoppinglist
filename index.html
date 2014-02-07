@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+
+    <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="http://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+
+    <script type="text/javascript" src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="main.css" />
+    <link rel="stylesheet" type="text/css" href="bootstrap/dist/css/bootstrap.css" />
+    <title>Shopping List</title>
+</head>
+<body>
+    <div id="container">
+        <h3>Shopping List</h3>
+        <div class="progress progress-striped active">
+            <div class="progress-bar" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 0%">
+                <span class="sr-only">25% Complete</span>
+            </div>
+        </div>
+        <div class="alert alert-warning hidden">
+          Sorry, item's can't be longer than 18 characters or blank</div>
+        <div class="input-group input-group-lg">
+            <input id="items" type="text" maxlength="30" class="form-control" autocomplete="off" placeholder="Enter a item here" />
+        </div>
+
+        <button type="button" id="add" class="btn btn-primary btn-lg btn-block">Add</button>
+
+        <ul class="list-group">
+        </ul>
+        <button type="button" id="clearAll" class="btn btn-default btn-lg btn-block">Clear All</button>
+    </div>
+
+</body>
+</html>
